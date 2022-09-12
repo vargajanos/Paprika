@@ -1,0 +1,36 @@
+body{
+    background-color: #FFEFD5;
+    color: #8B4513;
+    width: 70%;
+    margin-left: 15%;
+}
+table, th, td {
+    border: 1px solid black;
+    margin: 0% 0 0 40%;
+}
+a{
+    color: #8B4513;
+}
+a :hover{
+    color: #8B4513;
+}
+p{
+    text-align: justify;
+}
+h1{
+    background-image: url(MicrosoftTeams-image.png);
+    width: 90%;
+    height: 100px;
+    background-position: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-repeat: no-repeat;
+    color: lightgrey;
+}
+.bemutatas{
+    margin-left: 40%;
+}
+.csipos{
+    margin-left: 40%;
+}
+
