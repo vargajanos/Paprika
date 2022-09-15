@@ -29,8 +29,18 @@ h1{
 }
 .bemutatas{
     margin-left: 40%;
+    float: right;
+    margin-bottom: -50%;
 }
 .csipos{
     margin-left: 40%;
+    float: right;
 }
-
+li{
+    border: 1px solid lightblue;
+    margin: 0% 70% 0% 0%;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 15px;
+    color: black;
+}
