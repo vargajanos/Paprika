@@ -3,7 +3,7 @@ body{
     color: #8B4513;
     width: 70%;
     margin-left: 15%;
-    overflow: hidden;
+
 }
 table, th, td {
     border: 1px solid black;
@@ -20,7 +20,7 @@ p{
 }
 h1{
     background-image: url(MicrosoftTeams-image.png);
-    width: 90%;
+    width: 80%;
     height: 100px;
     background-position: center;
     margin-left:auto;
@@ -30,13 +30,11 @@ h1{
 }
 .bemutatas{
     margin-left: 40%;
-    float: right;
-    margin-bottom: -50%;
+    margin-bottom: -60%;
 }
 .csipos{
-    margin-top: 30%;
+    margin-top: 60%;
     margin-left: 40%;
-    float: right;
 }
 li{
     border: 1px solid lightblue;
@@ -49,8 +47,10 @@ li{
 .menu{
     margin-bottom: -50%;
 }
-.mukodj{
+.li{
     position: relative;
-    bottom: 440px;
-
+    bottom: 380px;
+}
+table{
+    margin-top: 10%;
 }
