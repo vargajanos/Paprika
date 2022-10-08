@@ -1,78 +1,84 @@
+
 body{
     background-color: #FFEFD5;
     color: #8B4513;
-    width: 70%;
-    margin-left: 15%;
-
 }
+
 table, th, td {
     border: 1px solid black;
-    margin: 0% 0 0 40%;
+    margin:auto;
+    border-collapse: collapse;
 }
+
 a{
     color: #8B4513;
+    text-decoration: none;
 }
+
 a :hover{
     color: #8B4513;
 }
-p{
+.regimenuli{
+  background-color: white;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+.regimenu{
+  text-align: justify;
+  padding-right: 80%;
+}
+
+h1{
+    color: darkgrey;
+    height: 100px;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    position: relative;
+    top: -10px;
+}
+
+.csiposseg{ 
+    position: relative;
+    padding-bottom: 100px;
+    right: -50%;
+    width: 60%;
+}
+
+.bemutat{
+    position: relative;
+    width: 60%;
+    top: 480px;
+    right: -26%;
     text-align: justify;
 }
-h1{
-    background-image: url(MicrosoftTeams-image.png);
-    width: 80%;
-    height: 100px;
-    background-position: center;
-    margin-left:auto;
-    margin-right:auto;
-    background-repeat: no-repeat;
-    color: lightgrey;
-}
-.bemutatas{
-    margin-left: 45%;
-    margin-bottom: -60%;
-}
-.csipos{
-    margin-top: 60%;
-    margin-left: 45%;
-}
-li{
-    border: 1px solid lightblue;
-    margin: 0% 75% 0% 0%;
-    text-align: center;
-    background-color: white;
-    margin-bottom: 15px;
-    color: black;
-}
-.menu{
-     margin-bottom: -50%;
-}
-.li{
-    position: relative;
-    bottom: 320px;
-}
-table{
-    margin-top: 10%;
-}
-@media screen and (max-width: 1200px) {
-  .csiposseg{top: 150px; width: 80%; right: -50px;}
-  .bemutat{top: -255px; width: 70%; left: 200px;}
-  .fajtai{width: 20%; right: -100px;}
-}
-@media screen and (max-height: 1200px) {
-  .csiposseg{top: -200px; right: -305px;}
-  .bemutat{top: -180px; left: 300px; width: 60%;}  
+
+.fajtai{
+    width: 20%;
 }
 @media screen and (min-width: 1200px){
-  .hamburger{
-    display: none;
-  }
+  .hamburger{display: none;}
 }
-@media screen and(max-width: 1200px){
-  .menu{
-    display: none;
-  }
-}  
+@media screen and (max-width: 1200px){
+  .regimenu{display: none;}
+}
+
+
+@media screen and (max-width: 1100px) {
+  .csiposseg{top: -200px; width: 60%; right: -300px;}
+  .bemutat{top: -190px; width: 70%; left: 300px;}
+  .fajtai{width: 20%; right: -100px;}
+}
+
+@media screen and (min-width: 1300px) {
+  .csiposseg{top: -400px; left: 300px;}
+  .bemutat{top: -435px; left: 300px; width: 60%;}  
+}
+@media screen and (max-height: 1100px){
+  .csiposseg{width: 55%;}
+  .bemutat{width: 55%;}
+}
+
+
 #menuToggle
 {
   display: block;

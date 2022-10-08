@@ -1,39 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hun">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="paprika.css">
     <title>Paprika</title>
 </head>
 <body>
-<div class="fejlec">
-    <h1>Ismered a legcsípősebbet?</h1>
+
+    <h1 style="background-image: url(paprikanagy.png);">Ismered a legcsípősebbet?</h1>
+<div class="fajtai">
+    <h2>Fajtái</h2>
+    <p>Öt faját, de sok változattal termesztik szerte a világon</p>
 </div>
 <br>
-<div class="menu">
-    <h2>Fajtái</h2>
-    <p>Öt fajtát, de sok változattal 
-    <p>termesztik szerte a világon</p> </p>
+<br>
+
+<div class="regimenu">
     <ul style="list-style-image: url(chili-pepper-icon.gif);" class="lista">
-        <li><a href="MicrosoftTeams-image.png">Közönséges paprika</a></li>
-        <li><a href="https://hu.wikipedia.org/wiki/Cserj%C3%A9s_paprika">Cserjés paprika</a></li>
-        <li><a href="https://hu.wikipedia.org/wiki/K%C3%ADnai_paprika">Kínai paprika</a></li>
-        <li><a href="https://hu.wikipedia.org/wiki/Bogy%C3%B3s_paprika">Bogyós paprika</a></li>
-        <li><a href="https://hu.wikipedia.org/wiki/Sz%C5%91r%C3%B6s_paprika">Szőrös paprika</a></li>
+        <div class="regimenuili">
+            <li style=" border: solid 2px lightblue;"><a href="MicrosoftTeams-image.png">Közönséges paprika</a></li>
+            <li style=" border: solid 2px lightblue;"><a href="https://hu.wikipedia.org/wiki/Cserj%C3%A9s_paprika">Cserjés paprika</a></li>
+            <li style=" border: solid 2px lightblue;"><a href="https://hu.wikipedia.org/wiki/K%C3%ADnai_paprika">Kínai paprika</a></li>
+            <li style=" border: solid 2px lightblue;"><a href="https://hu.wikipedia.org/wiki/Bogy%C3%B3s_paprika">Bogyós paprika</a></li>
+            <li style=" border: solid 2px lightblue;"><a href="https://hu.wikipedia.org/wiki/Sz%C5%91r%C3%B6s_paprika">Szőrös paprika</a></li>
+        </div>
     </ul>
 </div>
-<div class="bemutatas" class="col-12 col-md-6 p-2">
-    <h2>Bemutatása</h2>
-    <p>A paprika a burgonyafélék közé tartozó, Közép-Amerikából származó faj. Európába Kolumbusz orvosa hozta az első paprikát. A növény termése üreges bogyótermés, amely A- és C-vitaminban igen gazdag. Csípős ízét a kapszaicin nevű hatóanyag okozza. Jelentős fűszer- és gyógynövény. Magyarországon a XVI. század óta számos változatban termesztik.</p>
-</div>
-<div class="csipos" class="col-12 col-md-6 p-2">
-    <h2>Csípősség</h2>
-    <p>A paprika csípősségének (kapszaicin tartalmának) mértékegysége a Scoville egység. Értéke 0 (édes) és 300 000 (ehetetlenül csípős) egység között változik. Egy paprika Scoville értéke azt az arányt mutatja, amely megadja, hogy a minta csípőssége milyen arányú hígításban nem érezhető már.</p>
 
-</div>    
 <div class="hamburger">
     <nav role="navigation">
         <div id="menuToggle">
@@ -52,30 +48,43 @@
     </nav>
 </div>
 
-
+<section id="tartalom">
+    <div class="bemutat">
+        <h2>Bemutatása</h2>
+        <p>A paprika a burgonyafélék közé tartozó, Közép-Amerikából származó faj. Európába Kolumbusz orvosa hozta az első paprikát. A növény termése üreges bogyótermés, amely A- és C-vitaminban igen gazdag. Csípős ízét a kapszaicin nevû hatóanyag okozza. Jelentős fûszer- és gyógynövény. Magyarországon a XVI. század óta számos változatban termesztik.</p>
+        <br>
     </div>
-    <table style="width: 300px;" class="tablazat">
-        <tr>
-            <th>Paprika</th>
-            <th style="text-align: center;">Csípősség (Scoville érték)</th>
-        </tr>
-        <tr>
-            <th>zöldpaprika </th>
-            <th style="background-color: limegreen; text-align: center;">0</th>
-        </tr>
-        <tr>
-            <th>a kevésbé csípős hazai paprikák</th>
-            <th style="background-color: rgb(238, 238, 39); text-align: center;">500 -1000</th>
-        </tr>
-        <tr>
-            <th>csípős paprikák</th>
-            <th style="background-color: rgb(236, 84, 84); text-align: center;">1500 -2000</th>
-        </tr>
-        <tr>
-            <th>a mexikói Serrano chili</th>
-            <th style="background-color: rgb(203, 110, 240); text-align: center;">5000-20000</th>
-        </tr>
-    </table>
+    <br>
+    <div class="csiposseg">
+        <h2>Csípősség</h2>
+        <div>
+            <p>Paprika csípősségének (kapszaicin tartalmának) mértékegysége a Scoville egység. Értéke 0 (édes) és 300 000 (ehetetlenül csípős) egység között változik. Egy paprika Scoville értéke azt az arányt mutatja, amely megadja, hogy a minta csípőssége milyen arányú hígításban nem érezhető már.</p>
+        </div>
+        <table style="width: 300px;" class="tablazat">
+            <tr>
+                <th>Paprika</th>
+                <th style="text-align: center;">Csípősség (Scoville érték)</th>
+            </tr>
+            <tr>
+                <th>zöldpaprika </th>
+                <th style="background-color: limegreen; text-align: center;">0</th>
+            </tr>
+            <tr>
+                <th>a kevésbé csípős hazai paprikák</th>
+                <th style="background-color: rgb(238, 238, 39); text-align: center;">500 -1000</th>
+            </tr>
+            <tr>
+                <th>csípős paprikák</th>
+                <th style="background-color: rgb(236, 84, 84); text-align: center;">1500 -2000</th>
+            </tr>
+            <tr>
+                <th>a mexikói Serrano chili</th>
+                <th style="background-color: rgb(203, 110, 240); text-align: center;">5000-20000</th>
+            </tr>
+        </table>
+    
+    </div>   
+</section>
 
 </body>
 </html>
