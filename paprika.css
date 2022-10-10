@@ -26,33 +26,35 @@ a :hover{
 .regimenu{
   text-align: justify;
   padding-right: 80%;
+  margin-left: 10%;
 }
 h1{
     color: darkgrey;
     height: 100px;
     background-repeat: no-repeat;
-    margin-left: auto;
+    margin-left: 10%;
     position: relative;
     top: -10px;
 }
 
 .csiposseg{ 
     position: relative;
-    padding-bottom: 100px;
-    right: -50%;
+    top: -450px;
+    right: -30%;
     width: 60%;
 }
 
 .bemutat{
     position: relative;
     width: 60%;
-    top: 480px;
-    right: -26%;
+    top: -480px;
+    right: -30%;
     text-align: justify;
 }
 
 .fajtai{
     width: 20%;
+    margin-left: 10%;
 }
 @media screen and (min-width: 1200px){
   .hamburger{display: none;}
@@ -169,8 +171,6 @@ h1{
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  
-  background: #FFEFD5;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   
