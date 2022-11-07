@@ -1,7 +1,8 @@
 
 body{
-    background-color: #FFEFD5;
     color: #8B4513;
+    background: rgb(255,245,228);
+    background: linear-gradient(90deg, rgba(255,245,228,1) 0%, rgba(255,227,225,1) 29%, rgba(255,148,148,1) 60%);
 }
 
 table, th, td {
@@ -11,7 +12,7 @@ table, th, td {
 }
 
 a{
-    color: #8B4513;
+    color: rgba(255,148,148,1);
     text-decoration: none;
 }
 
@@ -22,11 +23,13 @@ a :hover{
   background-color: white;
   padding-bottom: 5px;
   text-decoration: none;
+
 }
 .regimenu{
   text-align: justify;
   padding-right: 80%;
   margin-left: 10%;
+  
 }
 h1{
     color: darkgrey;
@@ -35,6 +38,8 @@ h1{
     margin-left: 10%;
     position: relative;
     top: -10px;
+    background-size: auto;
+    padding: 1rem;
 }
 
 .csiposseg{ 
@@ -42,6 +47,7 @@ h1{
     top: -450px;
     right: -30%;
     width: 60%;
+    color: black;
 }
 
 .bemutat{
@@ -50,7 +56,10 @@ h1{
     top: -480px;
     right: -30%;
     text-align: justify;
-}
+    color: black;
+
+  }
+
 
 .fajtai{
     width: 20%;
@@ -70,7 +79,7 @@ h1{
   .fajtai{width: 20%; right: -100px;}
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1400px) {
   .csiposseg{top: -400px; left: 300px;}
   .bemutat{top: -435px; left: 300px; width: 60%;}  
 }
@@ -173,7 +182,7 @@ h1{
   padding-top: 125px;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  
+
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
   
